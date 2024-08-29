@@ -1,0 +1,113 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.m1{
+    border:2px solid black;
+    height:100vh;
+    width:99w;
+}
+.m1{
+    background-image: url(img1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+header{
+    height:12%;
+    margin-top: 3%;
+    position:fixed;
+    z-index:1000;
+    width:100%;
+
+}
+header.navbar{
+    height:35%;
+}
+header h1{
+    text-align:center;
+    font-size: 2.5em;
+    font-weight: 500;
+    color:black;
+
+}
+.el1{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.el1 a{
+     text-decoration: none;
+     padding:1% 1%  0% 1%;
+     color:black;
+     font-size: 1.1rem;
+     font-weight: 500;
+     color:black;
+}
+.puupy1,.puppy2,.puupy3{
+    height:67%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding:3%;
+    background-color:white;
+    align-items:center;
+}
+.puppy1.playful,.puupy2 .sleepy,.puupy3 .curious{
+    height:100%;
+    width:80%;
+    display:flex;
+    padding:3%;
+    background-color:white;
+    align-items: center;
+}
+.playful .img,.sleepy .img,.curious .img{
+    height:100%;
+    width:50%;
+    border-radius: 8px;
+    box-shadow: 0px 1px 1px 1px black;
+}
+.imgg img{
+    border-radius: 8px;
+}
+.playful p .pp1,.sleepy p .pp2,.curious p .pp3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.m2{
+    height: 100vh;
+    width:99vw;
+    border:1px solid black;
+    background-image: url(img3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.m3{
+    height: 100vh;
+    width:99vw;
+    border:1px solid black;
+    background-image: url(img4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+footer{
+    height:15vh;
+    width:99vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+footer p{
+    color:white;
+    text-align: center;
+    width:99vw;
+}
+
